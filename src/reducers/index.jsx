@@ -1,9 +1,11 @@
 import changeTheNumber from './upDown';
+import colorChange from './colorChangeNav';
 
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-    changeTheNumber
+    changeTheNumber,
+    colorChange
 })
 
 export default rootReducer;

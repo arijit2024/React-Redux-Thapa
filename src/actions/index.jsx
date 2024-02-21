@@ -11,3 +11,10 @@
         payload : num
     }
  }
+
+ export const colorChanger = (color) => {
+    return{
+        type : "COLORCHANGE",
+        payload : color
+    }
+ }
